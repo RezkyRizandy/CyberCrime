@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  font-family:serif;
+  background-color:
+
+}
+a {
+  text-decoration: none;
+}
+li {
+list-style: none;
+}
+.clear {
+  clear: left;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+}
+audio {
+  width:200px;
+  opacity: 0.2;
+
+}
+.top-wrapper {
+  background-image: url("ZZZ.jpg");
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  color:White;
+  text-align: center;
+  border-bottom: 10px solid silver;
+}
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  font-style:italic;
+}
+.top-wrapper p {
+  opacity: 0.8;
+  margin-bottom: 3px;
+  font-style: italic;
+  font-size: 18px
+}
+.btn-wrapper {
+  margin:20px 0;
+}
+.facebook {
+  background-color: #3b5998;
+  margin-right: 20px;
+}
+.instagram {
+  background-color: #3f729B;
+  margin-right: 20px;
+}
+.twitter {
+  background-color: #00acee;
+  margin-right: 20px;
+}
+.whatsapp {
+  background-color: #075e54;
+
+}
+.btn {
+  padding:12px 24px;
+  color:white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+.btn:hover {
+  opacity: 1;
+}
+.fa {
+  margin-right: 5px;
+}
+header {
+  height: 65px;
+  width:100%;
+  background-color: rgb(34,49,52,0.9);
+  position: fixed;
+  z-index: 10;
+  border-bottom: 2px solid palevioletred;
+}
+.logo {
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.header {
+  float: left;
+  color: red;
+  font-size: 24px;
+  padding-top: 20px;
+}
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+  transition: all 0.5s;
+}
+.header-right a:hover {
+  background-color: red;
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 20px;
+}
+.menu-icon {
+  display: none;
+}
+
+.header-right li {
+  float: right;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+
+}
+.header-right a{
+  color: white;
+  float: right;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  color: white;
+  background-color: #;
+  border-radius: 5px;
+}
+.lesson-wrapper {
+background-color: #eee;
+text-align: center;
+}
+.heading {
+  padding-top: 5px;
+  padding-bottom: 1px;
+  color:black;
+}
+.heading h3 {
+  font-weight: normal;
+  font-size: 20px;
+}
+.lesson {
+  float: left;
+  width: 20%;
+
+
+}
+.lesson-icon img {
+  width: 150px;
+  position: relative;
+
+}
+.message-wrapper {
+  text-align: center;
+  border-bottom: 3px solid palevioletred;
+  padding-bottom: 100px;
+  background-color:#eee;
+
+}
+.heading h2, h3 {
+  font-weight: normal;
+  font-size: 20px;
+}
+.message {
+  padding: 15px 40px;
+  box-shadow: 0 7px red;
+  cursor: pointer;
+  display: block;
+}
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top:7px;
+  border-color: red;
+}
+.wrapper:active{
+  box-shadow: none;
+  position: relative;
+  top:7px;
+}
+.wrapper {
+  background-color: #808080;
+  border-radius: 20px;
+  box-shadow: 0 7px #c0c0c0;
+  color: #800000;
+  font-size: 20px;
+  font-style: italic;
+}
+
+footer img {
+  width : 100px;
+  position: relative;
+  padding-bottom: 20px;
+}
+footer {
+  padding-top: 5px;
+  background-color: #2F4F4F;
+  padding-bottom: 20px;
+}
+.footer-left {
+  float: left;
+  font-size: 30px;
+  margin-top: 25px;
+}
+.footer-right {
+  float: right;
+  font-size: 20px;
+}
+.footer-right li {
+  margin: 10px;
+
+}
